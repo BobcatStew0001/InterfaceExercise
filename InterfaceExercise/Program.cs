@@ -50,6 +50,7 @@ namespace InterfaceExercise
             f150.Motto = "Built Ford Tough"; 
             
             
+            
             var civic = new Car();
             civic.Fuel = "Gasoline";
             civic.FourWheelDrive = "No";
@@ -61,18 +62,33 @@ namespace InterfaceExercise
             civic.CompanyName = "Honda";
             civic.Logo = "Silver H";
             civic.Motto = "The Power of Dreams";
+         
             
             var tahoe = new SUV();
             tahoe.Fuel = "Gasoline";
             tahoe.FourWheelDrive = "yes";
             tahoe.NumberOfTires = 4;
             tahoe.Price = 102000;
-            tahoe.NumberOfDealerships = "3000";
+            tahoe.NumberOfDealerships = "3000";git 
             tahoe.CompanyName = "Chevy";
             tahoe.Logo = "Gold Bowtie";
             tahoe.Motto = "Like A Rock";
             tahoe.PowerRearHatch = "yes";
             tahoe.ThirdRowSeat = "yes";
+
+            Console.WriteLine("________________________");
+
+            f150.DisplayDetails();
+            
+            Console.WriteLine("__________________________________");
+
+            civic.DisplayDetails();
+            
+            Console.WriteLine("__________________________________");
+            
+            tahoe.DisplayDetails();
+
+            Console.WriteLine("__________________________________");
 
             Console.WriteLine($"We are running some great deals on {f150.CompanyName} F-150's this week at Brandon Ford" +
                               $" the F-150 has a {f150.BedLength} inch bed {f150.NumberOfTires} tires" +
