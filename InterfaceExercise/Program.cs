@@ -69,7 +69,7 @@ namespace InterfaceExercise
             tahoe.FourWheelDrive = "yes";
             tahoe.NumberOfTires = 4;
             tahoe.Price = 102000;
-            tahoe.NumberOfDealerships = "3000";git 
+            tahoe.NumberOfDealerships = "3000"; 
             tahoe.CompanyName = "Chevy";
             tahoe.Logo = "Gold Bowtie";
             tahoe.Motto = "Like A Rock";
